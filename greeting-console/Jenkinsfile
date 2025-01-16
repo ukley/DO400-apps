@@ -8,6 +8,7 @@ pipeline{
                 sh '''
                     oc project amb-infra
                     oc start-build greeting-console  --follow --wait
+                    
                 '''
             }
          }                
